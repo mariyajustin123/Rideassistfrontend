@@ -49,6 +49,7 @@ generatepdf(id:any){
       // ...
     
   })
+  doc.text("invoice",20,20)
   doc.save('table.pdf')
 
 
